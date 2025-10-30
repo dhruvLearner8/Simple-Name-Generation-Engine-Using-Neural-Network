@@ -1,4 +1,4 @@
-#Makemore-Inspired Name Generator
+# Makemore-Inspired Name Generator
 
 A simple name generation project inspired by Andrej Karpathy’s makemore series.
 The project explores character-level language modeling, starting from basic count-based bigram models to a small neural network that learns to generate realistic names.
@@ -13,7 +13,7 @@ Implements a tiny neural net trained on the same dataset of names to predict the
 
 Both models output synthetic “names” that resemble the training data.
 
-##Bigram Model
+## Bigram Model
 
 Loaded and preprocessed a text dataset of names
 
@@ -27,7 +27,7 @@ Added smoothing to handle unseen character pairs
 
 Visualized the bigram probability matrix using matplotlib
 
-##Neural Network Model
+## Neural Network Model
 
 Implemented data preparation pipeline (inputs and targets)
 
